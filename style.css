@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, violet, blue);
+    background: linear-gradient(to bottom right,#000814,#49007C);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ body {
 
 .main-message h2 {
     font-size: 20px;
-    background: linear-gradient(45deg, #4CAF50, #006400);
+    background: linear-gradient(45deg, #FFB703, #FFB705);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -105,13 +105,17 @@ body {
 }
 
 .connect-wallet {
+    
+}
+
+#connect-wallet-btn {
     position: fixed;
     bottom: 80px;
     left: 50%;
     transform: translateX(-50%);
     width: 83%;
     border-radius: 20px;
-    background-color: #4B0082;
+    background-color: #0f27c1;
     color: white;
     padding: 15px 40px;
     text-align: center;
@@ -121,20 +125,10 @@ body {
     transition: background-color 0.3s;
 }
 
-#connect-wallet-btn {
-    background-color: #4caf50;
-    color: white;
-    font-size: 18px;
-    padding: 20px 80px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    padding: 8px 16px;
-}
+
 
 #connect-wallet-btn:hover {
-    background-color: blue;
+    background-color: darkgreen;
 }
 
 .image-placeholder {
